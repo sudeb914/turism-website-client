@@ -1,0 +1,19 @@
+.card{
+background-color: lightcyan;
+}
+.card:hover{
+    background-color: lightgoldenrodyellow;
+}
+.card button{
+    width: 145px;
+}
+.user-profile{
+    background-color: rgb(93, 95, 238);
+    color: white;
+    align-items: flex-end;
+    border-radius: 20px;
+    padding: 45px 10px;
+    /* display: flex; */
+    /* justify-content: center; */
+    
+}

@@ -1,0 +1,42 @@
+.footer{
+    background-color: #11141b;
+    color: white;
+    margin-top: 200px;
+    padding: 80px 0px 20px 0px;
+}
+.footer-link{
+color: white;
+}
+.footer-about{
+    text-align: start;
+}
+.footer-about ul{
+    text-align: start;
+    padding-left: 0px;
+}
+.footer-about ul li{
+list-style: none;
+line-height: 40px;
+
+}
+.footer-about ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-media a{
+padding: 10px 15px;
+margin: 4px;
+background-color: slategrey;
+border-radius: 50%;
+}
+.social-media a:hover{
+    background-color: rgb(80, 149, 228);
+}
+.social-media a i{
+    color: rgb(0, 0, 0);
+}
+.vertical-hr{
+    height: 144px !important;
+    width: 1px;
+}

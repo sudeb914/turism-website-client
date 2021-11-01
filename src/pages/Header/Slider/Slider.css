@@ -1,0 +1,7 @@
+
+@media only screen and (max-width:688px){
+    .slide-h img{
+        height: 50%!important;
+        width: auto;
+    }
+}
