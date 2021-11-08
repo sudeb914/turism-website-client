@@ -13,7 +13,7 @@ const Booking = () => {
     const { serviceId } = useParams();
 const [singleSevice,setSingleService]=useState({})
     useEffect(()=>{
-        fetch(`http://localhost:5000/services/${serviceId}`)
+        fetch(`https://secret-hamlet-89112.herokuapp.com/services/${serviceId}`)
         .then(res => res.json())
         .then(data => {
             console.log(data);
